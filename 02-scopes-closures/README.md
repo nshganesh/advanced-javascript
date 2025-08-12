@@ -79,10 +79,10 @@ console.log(x);
 ```
 
 **Options:**
-A) 1, 2, 1
-B) undefined, 2, 1
-C) 1, 2, 2
-D) ReferenceError
+- A) 1, 2, 1
+- B) undefined, 2, 1
+- C) 1, 2, 2
+- D) ReferenceError
 
 <details>
 <summary>Click to see answer and explanation</summary>
@@ -131,10 +131,10 @@ console.log(counter2()); // ?
 ```
 
 **Options:**
-A) 1, 2, 1
-B) 1, 1, 1
-C) 1, 2, 2
-D) 0, 1, 0
+- A) 1, 2, 1
+- B) 1, 1, 1
+- C) 1, 2, 2
+- D) 0, 1, 0
 
 <details>
 <summary>Click to see answer and explanation</summary>
@@ -179,10 +179,10 @@ console.log(x);
 ```
 
 **Options:**
-A) 2, 2
-B) 2, 1
-C) 1, 2
-D) 1, 1
+- A) 2, 2
+- B) 2, 1
+- C) 1, 2
+- D) 1, 1
 
 <details>
 <summary>Click to see answer and explanation</summary>
@@ -224,10 +224,10 @@ var heavyFunction = createHeavyObject();
 ```
 
 **Options:**
-A) heavyData is garbage collected immediately
-B) heavyData stays in memory due to closure
-C) heavyData is moved to global scope
-D) heavyData becomes undefined
+- A) heavyData is garbage collected immediately
+- B) heavyData stays in memory due to closure
+- C) heavyData is moved to global scope
+- D) heavyData becomes undefined
 
 <details>
 <summary>Click to see answer and explanation</summary>

@@ -70,10 +70,10 @@ console.log(a);
 ```
 
 **Options:**
-A) undefined, 1
-B) ReferenceError, 1
-C) 1, 1
-D) undefined, undefined
+- A) undefined, 1
+- B) ReferenceError, 1
+- C) 1, 1
+- D) undefined, undefined
 
 <details>
 <summary>Click to see answer and explanation</summary>
@@ -102,10 +102,10 @@ let b = 2;
 ```
 
 **Options:**
-A) undefined
-B) 2
-C) ReferenceError
-D) SyntaxError
+- A) undefined
+- B) 2
+- C) ReferenceError
+- D) SyntaxError
 
 <details>
 <summary>Click to see answer and explanation</summary>
@@ -137,10 +137,10 @@ console.log(typeof myVar);
 ```
 
 **Options:**
-A) function, undefined, function, function
-B) function, function, function, function
-C) undefined, undefined, function, function
-D) ReferenceError
+- A) function, undefined, function, function
+- B) function, function, function, function
+- C) undefined, undefined, function, function
+- D) ReferenceError
 
 <details>
 <summary>Click to see answer and explanation</summary>
