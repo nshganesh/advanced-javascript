@@ -323,9 +323,9 @@ console.log("6. Script end");
 
 **Options:**
 - A) 1, 6, 4, 2, 3, 5
-- B) 1, 6, 4, 2, 3, 5
-- C) 1, 6, 4, 2, 3, 5
-- D) 1, 6, 4, 2, 3, 5
+- B) 1, 6, 2, 4, 3, 5
+- C) 1, 6, 4, 2, 5, 3
+- D) 1, 6, 2, 4, 5, 3
 
 <details>
 <summary>Click to see answer and explanation</summary>
@@ -454,9 +454,9 @@ console.log("6. Script end");
 
 **Options:**
 - A) 1, 6, 5, 4, 2, 3
-- B) 1, 6, 5, 4, 2, 3
-- C) 1, 6, 5, 4, 2, 3
-- D) 1, 6, 5, 4, 2, 3
+- B) 1, 6, 5, 4, 3, 2
+- C) 1, 6, 4, 5, 2, 3
+- D) 1, 6, 4, 5, 3, 2
 
 <details>
 <summary>Click to see answer and explanation</summary>
@@ -540,8 +540,8 @@ console.log("End");
 **Priority Order (Node.js):**
 1. `process.nextTick` (highest priority)
 2. `Promise` microtasks
-3. `setImmediate`
-4. `setTimeout`
+3. `setImmediate` (higher priority than setTimeout)
+4. `setTimeout` (lower priority than setImmediate)
 
 #### 3. Event Loop in Different Environments
 
@@ -566,7 +566,8 @@ Promise.resolve().then(() => console.log("Promise"));
 process.nextTick(() => console.log("nextTick"));
 console.log("End");
 
-// Output: Start, End, nextTick, Promise, setTimeout, setImmediate
+// Output: Start, End, nextTick, Promise, setImmediate, setTimeout
+// Note: setImmediate has higher priority than setTimeout in Node.js
 ```
 
 ### Common Event Loop Pitfalls
